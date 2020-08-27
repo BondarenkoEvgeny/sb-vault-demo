@@ -1,0 +1,1 @@
+curl -H "X-Vault-Token: 00000000-0000-0000-0000-000000000000" -H "Content-Type: application/json" -X POST -d '{"data":{"app-config.username":"foo", "app-config.password":"bar"}}' http://127.0.0.1:8200/v1/secret/data/sb-vault-demo
